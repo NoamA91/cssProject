@@ -57,6 +57,7 @@ header img {
     padding: 20px;
     color: aliceblue;
     background-color: rgb(128, 199, 247);
+    z-index: 1;
 }
 
 .rigthContain button {
@@ -178,9 +179,12 @@ footer p {
     }
 
     .headerContainer {
-        background-color: rgb(109, 188, 253);
         display: grid;
         width: 100%;
+    }
+
+    .rigthContain {
+        z-index: 1;
     }
 
     .middleContainer {
